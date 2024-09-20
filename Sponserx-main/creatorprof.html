@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Creator/Sponsor Profile</title>
+    <link rel="stylesheet" href="./creatorprof.css">  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style2.css">
+</head>
+<body>
+   
+    <div class="container">
+        <h2>Create Your Profile</h2>
+        <div id="creator-form" class="row">
+            <form id="contentCreatorForm">
+                <div class="col-md-6">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="type">Profile Type:</label>
+                    <select id="type" name="type" class="form-select" required>
+                        <option value="contentCreator">Content Creator</option>
+                        <option value="sponsor">Sponsor</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="socialHandles">Social Media Handles:</label>
+                    <input type="text" id="socialHandles" name="socialHandles" class="form-control">
+                </div>
+                <div class="col-md-6">
+                    <label for="niche">Genre/Niche:</label>
+                    <select id="niche" name="niche" class="form-select" required>
+                        <option value="">Select Niche</option>
+                        <option value="Gaming">Gaming</option>
+                        <option value="Beauty">Beauty</option>
+                        <option value="Lifestyle">Lifestyle</option>
+                        <option value="Tech">Tech</option>
+                        <option value="Fin-Tech">Fin-Tech</option>
+                        <option value="Sports">Sports</option>
+                        <option value="Science">Science</option>
+                        <option value="Politics">Politics</option>
+                        <option value="Business">Business</option>
+                        <option value="Entertainment">Entertainment</option>
+                        <option value="Spiritual">Spiritual</option>
+                        <option value="Education">Education</option>
+                        <option value="Movies">Movies</option>
+                        <option value="Fitness">Fitness</option>
+
+
+                        </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="mobile">Mobile:</label>
+                    <input type="tel" id="mobile" name="mobile" class="form-control" required> 
+                </div>
+                <div class="col-md-6">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required> 
+                </div>
+                <div class="col-md-6">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" class="form-control" required> 
+                </div>
+                
+                <div class="col-12 mt-3">
+                    <button type="submit" class="btn btn-primary">Create Profile</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    </body>
+
+    <footer class="footer ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 text-white">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li>Bennett University</li>
+                        <li>Greater Noida, Uttar Pradesh</li>
+                        <li>Phone: 7388109688</li>
+                        <li>Email: Fitnessgenie.official@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-white">
+                    <h5>Connect With Us</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" class="text-white">Facebook</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Instagram</a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Twitter</a></li>
+                        <!-- Add more social media links here -->
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5 class="text-white">Subscribe to Our Newsletter</h5>
+                  <div class="input-group mb-0">
+                      <input type="email" class="form-control rounded-3" id="newsletterEmail" placeholder="Enter your email" aria-label="Enter your email" aria-describedby="button-addon2">
+                  </div>
+                  <div class="text-center">
+                      <button class="btn btn-primary" type="button" id="newsletterButton">Subscribe</button>
+                  </div>
+                  <p id="newsletterMessage" class="text-white mt-2"></p>
+              </div>
+                
+      </footer>
+      
+
+   
+   
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="./creatorprof.js"></script>  </body>
+</html>
+
+
+
+ 
+ 
